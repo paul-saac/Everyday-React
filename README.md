@@ -30,6 +30,24 @@ The export default prefix is a standard JavaScript syntax (not specific to React
 
 With function Profile() { } you define a JavaScript function with the name Profile.
 > React components are regular JavaScript functions, but their names must start with a capital letter or they won’t work!
+
+### Step 3: Add markup 
+
+The component returns an <img /> tag with src and alt attributes. <img /> is written like HTML, but it is actually JavaScript under the hood! This syntax is called JSX, and it lets you embed markup inside JavaScript.
+
+Return statements can be written all on one line, as in this component:
+```jsx
+return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+```
+But if your markup isn’t all on the same line as the return keyword, you must wrap it in a pair of parentheses:
+```jsx
+return (
+  <div>
+    <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+  </div>
+);
+```
+
 ---
 
 ## Core Concepts of React
