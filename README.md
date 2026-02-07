@@ -38,10 +38,10 @@ Example:
 function Welcome() {
   return <h1>Hello, React!</h1>;
 }
-
+```
 ---
 
-## 👤 Author
+## Author
 
 **John Paul L. Saac**  
 
