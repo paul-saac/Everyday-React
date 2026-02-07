@@ -1,12 +1,12 @@
-# React
+# Components
 
-## What is React?
+## What is Components?
 
-**React** is an open-source **JavaScript library** used for building **user interfaces (UI)**, especially for **single-page applications (SPAs)**. It allows developers to create fast, interactive, and reusable UI components for modern web applications.
+**Components** are one of the core concepts of React. They are the foundation upon which you build user interfaces (UI), which makes them the perfect place to start your React journey!
 
-React focuses only on the **view layer** of an application, meaning it handles how things look and respond to user interaction.
+## Defining a component
 
-React was created and is maintained by :contentReference[oaicite:0]{index=0} (formerly Facebook).
+Traditionally when creating web pages, web developers marked up their content and then added interaction by sprinkling on some JavaScript. This worked great when interaction was a nice-to-have on the web. Now it is expected for many sites and all apps. React puts interactivity first while still using the same technology: a React component is a JavaScript function that you can sprinkle with markup. Here’s what that looks like (you can edit the example below):
 
 ---
 
