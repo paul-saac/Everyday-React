@@ -28,9 +28,8 @@ The export default prefix is a standard JavaScript syntax (not specific to React
 
 ### Step 2: Define the functio
 
-> With function Profile() { } you define a JavaScript function with the name Profile.
-
-React components are regular JavaScript functions, but their names must start with a capital letter or they won’t work!
+With function Profile() { } you define a JavaScript function with the name Profile.
+> React components are regular JavaScript functions, but their names must start with a capital letter or they won’t work!
 ---
 
 ## Core Concepts of React
