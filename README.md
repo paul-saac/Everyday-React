@@ -24,11 +24,13 @@ export default function Profile() {
 
 ### Step 1: Export the component 
 
-- **Faster** – Efficient updates using the Virtual DOM  
-- **Modular** – Build apps using reusable components  
-- **Scalable** – Easy to manage large applications  
-- **Maintainable** – Clear structure and separation of concerns  
+The export default prefix is a standard JavaScript syntax (not specific to React). It lets you mark the main function in a file so that you can later import it from other files. (More on importing in Importing and Exporting Components!)
 
+### Step 2: Define the functio
+
+> With function Profile() { } you define a JavaScript function with the name Profile.
+
+React components are regular JavaScript functions, but their names must start with a capital letter or they won’t work!
 ---
 
 ## Core Concepts of React
