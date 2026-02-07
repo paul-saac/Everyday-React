@@ -1,16 +1,49 @@
-# React + Vite
+# React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is React?
 
-Currently, two official plugins are available:
+**React** is an open-source **JavaScript library** used for building **user interfaces (UI)**, especially for **single-page applications (SPAs)**. It allows developers to create fast, interactive, and reusable UI components for modern web applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React focuses only on the **view layer** of an application, meaning it handles how things look and respond to user interaction.
 
-## React Compiler
+React was created and is maintained by :contentReference[oaicite:0]{index=0} (formerly Facebook).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Why Use React?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React is widely used because it makes web development:
+
+- **Faster** – Efficient updates using the Virtual DOM  
+- **Modular** – Build apps using reusable components  
+- **Scalable** – Easy to manage large applications  
+- **Maintainable** – Clear structure and separation of concerns  
+
+---
+
+## Core Concepts of React
+
+### 1. Components
+Components are the building blocks of a React application. Each component represents a part of the user interface (e.g., buttons, forms, navigation bars).
+
+Components can be:
+- **Functional components**
+- **Reusable and independent**
+
+### 2. JSX (JavaScript XML)
+JSX is a syntax extension that allows developers to write HTML-like code inside JavaScript.
+
+Example:
+```jsx
+function Welcome() {
+  return <h1>Hello, React!</h1>;
+}
+```
+---
+
+## Author
+
+**John Paul L. Saac**  
+
+---
+
